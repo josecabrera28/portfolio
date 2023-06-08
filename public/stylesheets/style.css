@@ -40,3 +40,17 @@ body {
 .links{
   text-decoration: none;
 }
+
+.forms{
+  padding: 5%;
+}
+
+@keyframes color-transition {
+  0% { color: #adb5bdd7; } /* Rojo anaranjado */
+  50% { color: #ee1414; } /* Rojo vivo */
+  100% { color: #adb5bdd7; } /* Vuelve al rojo anaranjado */
+}
+
+#form_title {
+  animation: color-transition 20s infinite;
+}
