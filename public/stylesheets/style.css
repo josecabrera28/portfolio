@@ -3,6 +3,40 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.container-s {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 80vh;
+  min-width: 500px;
+  background: linear-gradient(to right, #adb5bdd7 0%, #adb5bd21 55%, #adb5bd21 50%, #be2d2d 100%);
+}
+
+.backgroundColor {
+  position: absolute;
+  right: 15%;
+  width: 60%;
+}
+
+.inner-container {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.right-container {
+  position: absolute;
+  left: 80%;
+  top: 40%;
+  font-size: medium;
+  transform: translate(-50%, -50%); 
+}
+
+.inner-container>h2{
+  color: #b8340b;
+}
+
+.links{
+  text-decoration: none;
 }
