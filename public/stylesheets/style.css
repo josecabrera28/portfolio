@@ -1,3 +1,4 @@
+/*index*/
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -54,3 +55,41 @@ body {
 #form_title {
   animation: color-transition 20s infinite;
 }
+/*carousel*/
+.center{
+  display: flex;
+  justify-content: center;
+}
+#carouselExampleCaptions{
+  width: 50%;
+  height: 50%;
+}
+
+/*project_title*/
+.movie-effect{
+  list-style: none;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.movie-effect li{
+  display: inline-block;
+  margin-right: 1px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #be2d2d;
+  opacity: 1;
+  transition: all 5s ease;
+}
+.movie-effect.movie-effect.hidden li{
+  opacity: 0;
+}
+.movie-effect.hidden li:nth-child(1){transform: translateX(-200px) translateY(-200px);}
+.movie-effect.hidden li:nth-child(2){transform: translateX(20px) translateY(100px);}
+.movie-effect.hidden li:nth-child(3){transform: translateX(-500px) translateY(-80px);}
+.movie-effect.hidden li:nth-child(4){transform: translateX(10px) translateY(-200px);}
+.movie-effect.hidden li:nth-child(5){transform: translateX(-100px) translateY(90px);}
+.movie-effect.hidden li:nth-child(6){transform: translateX(-100px) translateY(10px);}
+.movie-effect.hidden li:nth-child(7){transform: translateX(200px) translateY(90px);}
+.movie-effect.hidden li:nth-child(8){transform: translateX(80px) translateY(-120px);}
