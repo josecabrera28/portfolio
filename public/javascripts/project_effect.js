@@ -1,3 +1,9 @@
+/*File name:     effects.js 
+Student name:    Jose Cabrera
+Student ID:      301212338
+Date:            07/06/2023
+*/ 
+
 document.addEventListener('DOMContentLoaded', function() {
     setTimeout(function() {
         let elements = document.getElementsByClassName('movie-effect');

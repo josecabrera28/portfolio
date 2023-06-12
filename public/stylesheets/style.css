@@ -1,3 +1,9 @@
+/*File name:     effects.js 
+Student name:    Jose Cabrera
+Student ID:      301212338
+Date:            07/06/2023
+*/ 
+
 /*index*/
 body {
   padding: 50px;
@@ -65,7 +71,9 @@ body {
   height: 50%;
 }
 
-/*project_title*/
+/*project_title
+Magtimus. (2022, October 2). Text animation | HTML CSS JavaScript. YouTube. https://www.youtube.com/shorts/HTikjG3NZmQ 
+*/
 .movie-effect{
   list-style: none;
   position: absolute;
