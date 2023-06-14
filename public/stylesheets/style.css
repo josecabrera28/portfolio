@@ -4,6 +4,11 @@ Student ID:      301212338
 Date:            07/06/2023
 */ 
 
+/*logo*/
+#logo{
+  width: 30px;
+}
+
 /*index*/
 body {
   padding: 50px;

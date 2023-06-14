@@ -2,20 +2,20 @@
 
 <%- include partials/top_nav.ejs %>
 <main>
-  <form class="row g-3 needs-validation forms" validate>
+  <form class="row g-3 needs-validation forms" action="https://formsubmit.co/8d497be83514e09bcd45f0891e85fd33" method="POST" validate>
     <div class="container text-center opacity-50">
       <h2 class="text-shadow-lg" id="form_title">Unlock Your Dreams: Submit Your Application Today!</h2>
     </div>
     <div class="col-md-4">
       <label for="validationCustom01" class="form-label">First name</label>
-      <input type="text" class="form-control" id="validationCustom01" required>
+      <input type="text" name="First name" class="form-control" id="validationCustom01" required>
       <div class="valid-feedback">
         Looks good!
       </div>
     </div>
     <div class="col-md-4">
       <label for="validationCustom02" class="form-label">Last name</label>
-      <input type="text" class="form-control" id="validationCustom02" required>
+      <input type="text" name="Last name" class="form-control" id="validationCustom02" required>
       <div class="valid-feedback">
         Looks good!
       </div>
@@ -24,7 +24,7 @@
       <label for="validationCustomUsername" class="form-label">email</label>
       <div class="input-group has-validation">
         <span class="input-group-text" id="inputGroupPrepend">@</span>
-        <input type="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        <input type="email" name="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
         <div class="invalid-feedback">
           Please choose a email.
         </div>
@@ -32,14 +32,14 @@
     </div>
     <div class="col-md-6">
       <label for="validationCustom03" class="form-label">City</label>
-      <input type="text" class="form-control" id="validationCustom03" required>
+      <input type="text" name="city" class="form-control" id="validationCustom03" required>
       <div class="invalid-feedback">
         Please provide a valid city.
       </div>
     </div>
     <div class="col-md-3">
       <label for="validationCustom04" class="form-label">State</label>
-      <select class="form-select form-control" id="validationCustom04" required>
+      <select name="State" class="form-select form-control" id="validationCustom04" required>
         <option selected disabled value="">Choose...</option>
         <option>ON</option>
         <option>QC</option>
@@ -62,7 +62,7 @@
     </div>
     <div class="col-md-3">
       <label for="validationCustom05" class="form-label">Zip</label>
-      <input type="text" class="form-control" id="validationCustom05" required>
+      <input type="text" name="Zip" class="form-control" id="validationCustom05" required>
       <div class="invalid-feedback">
         Please provide a valid zip.
       </div>
@@ -70,26 +70,26 @@
     <div class="col-md-4">
       <label for="validationCustom05" class="form-label">Project Type</label>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
-        <label class="form-check-label" for="flexRadioDefault1">
+        <input class="form-check-input" type="radio" name="Project Type" id="flexRadioDefault1" required>
+        <label class="form-check-label" for="Project Type">
           Blog
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" required>
-        <label class="form-check-label" for="flexRadioDefault2">
+        <input class="form-check-input" type="radio" name="Project Type" id="flexRadioDefault2" required>
+        <label class="form-check-label" for="Project Type">
           Web Page
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" required>
-        <label class="form-check-label" for="flexRadioDefault2">
+        <input class="form-check-input" type="radio" name="Project Type" id="flexRadioDefault2" required>
+        <label class="form-check-label" for="Project Type">
           Web Site
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" required>
-        <label class="form-check-label" for="flexRadioDefault2">
+        <input class="form-check-input" type="radio" name="Project Type" id="flexRadioDefault2" required>
+        <label class="form-check-label" for="Project Type">
           Web Application
         </label>
       </div>
@@ -98,7 +98,7 @@
       <label for="validationCustomUsername" class="form-label">Budget</label>
       <div class="input-group has-validation">
         <span class="input-group-text" id="inputGroupPrepend">$</span>
-        <input type="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend">
+        <input type="text" name="Budget" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend">
         <span class="input-group-text">.00</span>
         <div class="invalid-feedback">
           Please choose a email.
@@ -108,7 +108,7 @@
     <div class="col-md-4">
       <div class="input-group">
         <span class="input-group-text">Project <br> Description</span>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
+        <textarea class="form-control" name="Description" aria-label="With textarea"></textarea>
       </div>
     </div>
     <div class="col-12">
