@@ -11,7 +11,7 @@ Date:            07/06/2023
 
 /*index*/
 body {
-  padding: 50px;
+  padding: 2%;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -20,14 +20,14 @@ body {
   justify-content: center;
   align-items: flex-end;
   height: 80vh;
-  min-width: 500px;
+  min-width: 300px;
   background: linear-gradient(to right, #adb5bdd7 0%, #adb5bd21 55%, #adb5bd21 50%, #be2d2d 100%);
 }
 
 .backgroundColor {
   position: absolute;
-  right: 15%;
-  width: 60%;
+  right: 10%;
+  width: 70%;
 }
 
 .inner-container {
@@ -72,8 +72,16 @@ body {
   justify-content: center;
 }
 #carouselExampleCaptions{
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
+}
+.caption-height{
+  height: 30%;
+}
+.text-sm{
+  font-size: small;
+  padding: 0%;
+  margin: 0%;
 }
 
 /*project_title
@@ -83,7 +91,7 @@ Magtimus. (2022, October 2). Text animation | HTML CSS JavaScript. YouTube. http
   list-style: none;
   position: absolute;
   left: 50%;
-  top: 25%;
+  top: 15%;
   transform: translateX(-50%) translateY(-50%);
 }
 .movie-effect li{

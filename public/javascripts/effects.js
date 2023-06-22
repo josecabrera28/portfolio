@@ -17,7 +17,7 @@ nav.forEach(element => {
 let img_lan = document.querySelectorAll("img.img-lan");
 console.log(img_lan);
 img_lan.forEach(element => {
-    element.style.width="50%";
+    element.style.width="70%";
 });
 
 let img_jose = document.getElementById("img-jose");
